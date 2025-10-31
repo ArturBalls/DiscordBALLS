@@ -1,4 +1,4 @@
-.theme-dark,
+/*.theme-dark,
 .theme-light {
 	--checkbox-background-checked: var(--blurple) !important;
 	--bg-brand: var(--blurple, var(--blurple-50)) !important;
@@ -108,7 +108,7 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 	color: var(--channels-default);
 }
 
-/* remove the title bar on web & linux */
+/* remove the title bar on web & linux 
 html.platform-web:not(html[data-dorion-platform="linux"]),
 html.platform-linux {
 	.base__5e434 {
@@ -135,13 +135,13 @@ html.platform-linux {
 		top: 69px !important;
 	}
 }
-/* better support a client that like only 1 person uses but i hate disappointing people so im doing it */
+/* better support a client that like only 1 person uses but i hate disappointing people so im doing it 
 html[data-dorion-platform="linux"] {
 	.bar_c38106 .trailing_c38106 {
 		top: 55.3px !important;
 	}
 }
-/* platform-specific fixes */
+/* platform-specific fixes 
 html.platform-osx .base__5e434 {
 	grid-template-areas:
 		"titleBar titleBar titleBar"
@@ -188,7 +188,7 @@ html.platform-osx .title_c38106 {
 #app-mount .h5_b717a1.eyebrow_b717a1 {
 	text-transform: uppercase !important;
 }
-/*codeblock*/
+/*codeblock
 
 html.theme-dark .hljs-addition {
 	background-color: #033a16;
@@ -260,14 +260,14 @@ html.theme-light :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
 }
 
 html.visual-refresh {
-	/*servers and channels*/
+	/*servers and channels
 	.childWrapperNoHoverBg__6e9f8 {
 		background-color: var(--background-mod-strong);
 	}
 	.sidebarListRounded__5e434 {
 		border-top-left-radius: unset;
 	}
-	/*weird line on the bottom*/
+	/*weird line on the bottom
 	.sidebar__5e434:after {
 		display: none;
 	}
@@ -381,7 +381,7 @@ html.visual-refresh {
 		.buttonChevron__37e49 {
 			margin: 0;
 		}
-		/*hide arrows when there's an extra button (like a game activity toggle plugin)*/
+		/*hide arrows when there's an extra button (like a game activity toggle plugin)
 		&:has(> :nth-child(6)) .buttonChevron__37e49 {
 			display: none;
 		}
@@ -476,7 +476,7 @@ html.visual-refresh {
 	.lookLink__201d5.colorPrimary__201d5 {
 		color: var(--text-default);
 	}
-	/* Emojis/GIF Picker */
+	/* Emojis/GIF Picker 
 	.drawerSizingWrapper__08434 {
 		right: 0px !important;
 	}
@@ -561,7 +561,7 @@ html.visual-refresh {
 		-webkit-backdrop-filter: unset;
 		backdrop-filter: unset;
 	}
-	/* channel menus */
+	/* channel menus 
 	.header__45690 {
 		background: var(--background-tertiary);
 		border-bottom: 2px solid var(--background-modifier-accent);
@@ -598,7 +598,7 @@ html.visual-refresh {
 		outline: none;
 	}
 
-	/* tab bars */
+	/* tab bars 
 	.item_aa8da2 {
 		position: relative;
 		font-size: 16px;
@@ -642,15 +642,14 @@ html.visual-refresh {
 	.topPill_aa8da2 .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2) {
 		background-color: var(--background-modifier-hover);
 	}
-
-	/* header text in DMs */
+	/* header text in DMs 
 	.titleWrapper__9293f > .defaultColor__5345c.text-md\/medium_cf4812 {
 		text-transform: unset !important;
 	}
 	.topic__6ec1a {
 		color: var(--header-secondary);
 	}
-	/* call background */
+	/* call background 
 	.root_bfe55a {
 		background: unset;
 	}
