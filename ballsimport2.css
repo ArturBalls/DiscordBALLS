@@ -1,3 +1,4 @@
+/*ссылка на оригинал от milbits: https://milbits.github.io/oldcord/src/components/redesign.css*/
 .theme-dark,
 .theme-light {
 	--checkbox-background-checked: var(--blurple) !important;
@@ -2517,3 +2518,4 @@ html.density-default .item_caf372 {
 		padding-top: 21px;
 	}
 }
+/*КОНЕЦ ИМПОРТА 2*/
