@@ -1234,18 +1234,7 @@ html.visual-refresh {
 		color: var(--font-primary) !important;
 	}
 	.base_b88801 {
-		left: 16px;
-		font-size: 14px;
-		font-weight: 500;
-		line-height: 24px;
-		bottom: 1px !important;
-		top: unset !important;
-		resize: none;
-		align-items: center;
 		color: var(--text-default);
-		strong {
-			font-weight: var(--font-weight-bold) !important;
-		}
 		.text_b88801 {
 			margin-left: 4px !important;
 		}
@@ -1253,7 +1242,6 @@ html.visual-refresh {
 			margin-left: unset;
 		}
 	}
-
 	/* jump to present bar & failed to load bar */
 	.jumpToPresentBar__0f481,
 	.messagesErrorBar__0f481 {
@@ -1848,13 +1836,6 @@ html.visual-refresh {
 		}
 	}
 
-	/* server banner images */
-	.bannerImage_f37cb1,
-	.bannerImg_f37cb1 {
-		width: 240px;
-		aspect-ratio: unset;
-	}
-
 	/* tooltips */
 	.tooltipPrimary_c36707,
 	.reactionTooltip_b49891,
@@ -1881,16 +1862,13 @@ html.visual-refresh {
 
 	/* channel updates */
 	.wrapper__44df5 {
-		background: var(--background-tertiary);
+		background: none;
 		border-radius: 5px;
 		border: unset;
-		margin: 0 0 24px 0;
-		height: 20px;
+		margin: 0 0 -2px 0;
+		height: 39px;
 		.content__44df5 {
-			margin-left: 8px;
-			.title__44df5 {
-				color: var(--header-primary);
-			}
+			margin-left: 4px;
 		}
 		&:not(:has(img)) .content__44df5:before {
 			.content__44df5:before {
