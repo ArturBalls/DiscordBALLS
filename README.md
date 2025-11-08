@@ -23,4 +23,9 @@
 
 ---
 
+### [Чейнджлог](https://github.com/ArturBalls/DiscordBALLS/blob/main/%D1%87%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%BB%D0%BE%D0%B3.txt)👈
+
+---
+
 Я Артур Яйца и у меня есть Яйца.
+
